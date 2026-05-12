@@ -1,18 +1,21 @@
-# React + Vite
+# Ingridify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ingridify is a React-based web application where users can add a list of ingredients and generate recipe suggestions using the OpenAI ChatGPT API.
 
-Currently, two official plugins are available:
+## Features
+- Add and manage ingredients dynamically
+- Generate cooking instructions based on selected ingredients
+- Responsive and interactive UI built with React
+- AI-powered recipe generation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js
+- JavaScript
+- OpenAI API
+- CSS
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How It Works
+1. User adds available ingredients
+2. The ingredient list is sent to the OpenAI API
+3. The AI generates a recipe and cooking instructions
+4. The recipe is displayed in the UI
