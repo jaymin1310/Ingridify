@@ -1,6 +1,6 @@
 # Ingridify
 
-Ingridify is a React-based web application where users can add a list of ingredients and generate recipe suggestions using the OpenAI ChatGPT API.
+Ingridify is a React-based web application where users can add a list of ingredients and generate recipe suggestions using the OpenRouter API.
 
 ## Features
 - Add and manage ingredients dynamically
@@ -11,7 +11,7 @@ Ingridify is a React-based web application where users can add a list of ingredi
 ## Tech Stack
 - React.js
 - JavaScript
-- OpenAI API
+- OpenRouter API
 - CSS
 
 ## How It Works
@@ -19,3 +19,5 @@ Ingridify is a React-based web application where users can add a list of ingredi
 2. The ingredient list is sent to the OpenAI API
 3. The AI generates a recipe and cooking instructions
 4. The recipe is displayed in the UI
+5. User can delete and start over also
+   
